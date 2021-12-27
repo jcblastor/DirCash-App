@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/dirMOD.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/tablet.css"
+      media="(min-width: 768px)"
+    />
+    <title>DirmodCash</title>
+  </head>
+  <body>
+    <header class="header">
+      <figure>
+        <img src="./assets/images/dirModLogo.png" alt="logo dirCash" />
+      </figure>
+      <div class="title">
+        <h1>dirMOD Cash</h1>
+      </div>
+    </header>
+
+    <main class="main">
+      <form class="form-date">
+        <label class="form-date__label" for="dateId">Fecha a buscar</label>
+        <input
+          class="form-date__input"
+          type="date"
+          name="date"
+          id="dateId"
+          value="2021-12-25"
+          min="1999-01-01"
+          max="2021-12-31"
+          required
+        />
+        <div class="form-button">
+          <button class="form-button__submit" type="submit">Consultar</button>
+        </div>
+      </form>
+    </main>
+
+    <section class="section">
+      <div class="section-title">
+        <h2 class="section-title__h2">Top 20 monedas mas valoradas</h2>
+        <h2 class="section-title__date"></h2>
+        <button id="allCoins" class="section-title__button">
+          Todas las monedas
+        </button>
+      </div>
+      <article class="section-article">
+        <table class="table" id="table">
+          <thead>
+            <tr class="table-tr">
+              <th>Nombre Moneda</th>
+              <th>Cod</th>
+              <th>Ref &euro;</th>
+              <th>cambio</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </article>
+    </section>
+    <template id="template">
+      <tr class="table-tr">
+        <td class="moneda"></td>
+        <td class="cod"></td>
+        <td class="ref">1</td>
+        <td class="rate"></td>
+      </tr>
+    </template>
+    <footer class="footer">
+      <p>Todos los derechos reservados &copy; jcblastor</p>
+    </footer>
+
+    <script type="module" src="./assets/js/index.js"></script>
+  </body>
+</html>

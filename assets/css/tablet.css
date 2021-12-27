@@ -1,0 +1,36 @@
+.title {
+  font-size: 1.8rem;
+}
+.form-date {
+  width: 60%;
+}
+.form-button__submit {
+  padding: 0.8rem;
+  font-size: 1.8rem;
+}
+.section-article {
+  width: 75%;
+}
+
+.section-title {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+}
+.section-title__button {
+  width: 32%;
+  margin: 0;
+  font-size: 2rem;
+  padding: 1rem 0.5rem;
+}
+
+.section-title__h2,
+.section-title__date {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--secondary);
+}
+.table-tr th,
+td {
+  font-size: 1.7rem;
+}
