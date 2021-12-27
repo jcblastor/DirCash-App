@@ -4,6 +4,6 @@
 
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/100px-Amazon_Web_Services_Logo.svg.png)](https://nodesource.com/products/nsolid)
 
-##### _Esta api fue realizada en Node.js V-14.X y expone las siguienes rutas._
+##### _Este proyecto fue realizado con html5, css y javascript._
 
-## _Link del la app desplegada._
+## _Link del la [app](https://dkzhek8wy43ep.cloudfront.net/) desplegada._
